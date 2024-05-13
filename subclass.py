@@ -1,3 +1,4 @@
+# Task 2 & 3
 class Product:
     def __init__(self, product_id, name, price):
         self.product_id = product_id
@@ -43,7 +44,6 @@ class Clothing(Product):
         super().display_product_info()
         print("Size:", self.size)
         print("Color:", self.color)
-
 
 
 book1 = Book("B001", "Python Programming", 39.99, "Guido van Rossum", "Programming")
